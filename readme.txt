@@ -24,3 +24,12 @@ git clone git@826415551@qq:liangwenzhu/gitskills.git  其中,邮箱和:后面的
 查看都有哪些工作现场                              git stash list
 回到之前在dev分支上的工作状态                     git stash pop或者 git stash@[id] 回到指定工作状态
 然后切换到master,合并dev 完成工作。       
+
+为当前最新的COMMIT打标签。                        git tag v1.0
+为以前的COMMIT打标签                            
+1.找到以前COMMIT的ID                              git reflog
+2.设置标签                                        git tag v1.1 id     其中,v1.0和v1.1都是标签名，自己设置的。
+推送标签                                          git push origin v1.0
+批量推送                                          git push origin --tags
+删除标签                                          git tag -d v1.0
+从远程端里删除标签                                git push origin:refs/tags/v1.0                       
