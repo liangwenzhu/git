@@ -18,4 +18,9 @@ git push origin master        把本地master库同步到网络库里（origin�
 
 从网络库中的仓库把文件拷贝到本地：
 git clone git@826415551@qq:liangwenzhu/gitskills.git  其中,邮箱和:后面的liangwenzhu是自己在github注册的邮箱和用户名，gitskills是仓库名。
-git stash 储存工作状态。
+储存工作状态                                      git stash
+创建一个新的分支issue-01来修改master上的BUG       git branch issue-01   git checkout issue-01
+修改完后合并到master                              git checkout master   git merge issue-01 
+查看都有哪些工作现场                              git stash list
+回到之前在dev分支上的工作状态                     git stash pop或者 git stash@[id] 回到指定工作状态
+然后切换到master,合并dev 完成工作。       
