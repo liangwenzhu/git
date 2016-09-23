@@ -2,16 +2,6 @@ Git is a version control system.
 Git is a free software.
 ahhahahahah
 
-<<<<<<< HEAD
-=======
-在分支DEV里修改 1.
-
-
-
-
-
-小结：git init                初始化
->>>>>>> dev
 git add file                  把工作区的文件提交到暂存区stage
 git commit -m"描述"           把暂缓区的文件提交到master。就是自己的本地库里。
 git remote add origin git@826415551@qq.com/git.git     在个人github里创建一个名为"git"的git仓库，
