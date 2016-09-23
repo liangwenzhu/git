@@ -2,6 +2,12 @@ Git is a version control system.
 Git is a free software.
 ahhahahahah
 
+在分支DEV里修改 1.
+
+
+
+
+
 小结：git init                初始化
 git add file                  把工作区的文件提交到暂存区stage
 git commit -m"描述"           把暂缓区的文件提交到master。就是自己的本地库里。
