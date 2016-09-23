@@ -18,3 +18,4 @@ git push origin master        把本地master库同步到网络库里（origin�
 
 从网络库中的仓库把文件拷贝到本地：
 git clone git@826415551@qq:liangwenzhu/gitskills.git  其中,邮箱和:后面的liangwenzhu是自己在github注册的邮箱和用户名，gitskills是仓库名。
+git stash 储存工作状态。
